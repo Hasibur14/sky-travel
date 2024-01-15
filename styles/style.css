@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,600;0,700;0,900;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+
+}
+
+/*navbar-section*/
+.nav-container {
+    max-width: 1440px;
+    margin: 48px auto;
+    display: flex;
+}
+
+.nav-container-left {
+    display: flex;
+    min-width: 50%;
+    align-items: center;
+}
+
+.nav-container-left img {
+    width: 42px;
+    height: 50px;
+    margin-right: 7px;
+}
+
+.nav-container P {
+    font-size: 36px;
+    font-weight: 800;
+
+}
+
+.nav-container-right {
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    color: azure;
+}
+
+.nav-container-right a {
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+/* style explore your travel */
+.banner {
+    border:1px solid red;
+    height: 600px;
+    width: 1440px;
+    margin: 50px auto;
+    /* background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 1440px;
+    margin-top: 50px;
+    background-blend-mode: multiply;
+    margin: 50px auto;
+    border-radius: 16px;
+} */
+
+.banner-text {
+   align-items: center;
+justify-content: center;
+margin-top: 50px;
+
+}
+
+.banner-text h1 {
+    color: #9a2626;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-text p {
+    width: 676px;
+    color: #831818;
+}
+
+.bannaer-btn-main {
+    width: 800px;
+    height: 55px;
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.banner-btn {
+    width: 174px;
+    height: 72px;
+    border-radius: 8px;
+
+}
