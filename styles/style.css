@@ -53,11 +53,8 @@ body {
 
 /* style explore your travel */
 .banner {
-    border:1px solid red;
-    height: 600px;
-    width: 1440px;
-    margin: 50px auto;
-    /* background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13.png');
+
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13.png');
     background-size: 100%;
     background-repeat: no-repeat;
     height: 600px;
@@ -66,27 +63,9 @@ body {
     background-blend-mode: multiply;
     margin: 50px auto;
     border-radius: 16px;
-} */
-
-.banner-text {
-   align-items: center;
-justify-content: center;
-margin-top: 50px;
-
 }
 
-.banner-text h1 {
-    color: #9a2626;
-    font-size: 64px;
-    font-weight: 800;
-}
-
-.banner-text p {
-    width: 676px;
-    color: #831818;
-}
-
-.bannaer-btn-main {
+.bannar-btn-main {
     width: 800px;
     height: 55px;
     display: inline-flex;
@@ -97,9 +76,99 @@ margin-top: 50px;
     background: rgba(255, 255, 255, 0.30);
 }
 
-.banner-btn {
-    width: 174px;
-    height: 72px;
-    border-radius: 8px;
+.banner-text {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 355px;
+}
 
+.banner-text-h1 {
+    width: 620px;
+    height: 80px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+
+}
+
+.banner-text-p {
+    width: 676px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btn-main {
+    display: flex;
+}
+
+.btn-input {
+    width: 174px;
+    height: 92px;
+}
+
+/* container-2,Our Popular Tours */
+.Popular-Tours {
+    width: 1440px;
+    height: 550px;
+    margin: 100px auto;
+    display: flex;
+    background-color: #FFF;
+}
+
+.Popular-Tours-text {
+    height: 550px;
+    width: 50%;
+}
+
+.Popular-Tours-text h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.Popular-Tours-text p,
+ul {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 520;
+
+}
+
+button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+.Popular-Tours-img {
+    height: 550px;
+    width: 50%;
+
+}
+
+.Popular-Tours-img img {
+    object-fit: cover;
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: 75px;
 }
