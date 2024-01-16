@@ -143,6 +143,10 @@ ul {
 
 }
 
+.Popular-Tours-text ul {
+    margin-left: 15px;
+}
+
 button {
     width: 174px;
     height: 52px;
@@ -362,15 +366,18 @@ button:hover {
     border-radius: 16px;
     background: rgba(251, 181, 99, 0.05);
 }
-.box-1 img{
+
+.box-1 img {
     margin-top: 35px;
     margin-left: 35px;
 }
-.box-1 h2{
+
+.box-1 h2 {
     margin-top: 30px;
     margin-left: 35px;
 }
-.box-1 p{
+
+.box-1 p {
     margin-top: 30px;
     margin-left: 35px;
 }
@@ -385,15 +392,18 @@ button:hover {
     background: rgba(41, 206, 246, 0.05);
     margin-left: 20px;
 }
-.box-2 img{
+
+.box-2 img {
     margin-top: 35px;
     margin-left: 35px;
 }
-.box-2 h2{
+
+.box-2 h2 {
     margin-top: 30px;
     margin-left: 35px;
 }
-.box-2 p{
+
+.box-2 p {
     margin-top: 30px;
     margin-left: 35px;
 }
@@ -401,24 +411,155 @@ button:hover {
 
 .box-3 {
     border-radius: 16px;
-    border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     width: 50%;
     height: 300px;
     margin: 25px auto;
-   
+
 }
-.box-3 img{
+
+.box-3 img {
     margin-top: 35px;
     margin-left: 35px;
 }
-.box-3 h2{
+
+.box-3 h2 {
     margin-top: 30px;
     margin-left: 35px;
 }
-.box-3 p{
+
+.box-3 p {
     margin-top: 30px;
     margin-left: 35px;
 }
 
 
+
+/* A Simple Perfect Place To Get Lost,container-5  */
+
+.Perfect-Place {
+    width: 1440px;
+    height: 430px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.Perfect-Place-text {
+    width: 50%;
+}
+
+.Perfect-Place-text h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 53px;
+    width: 450px;
+    height: 110px;
+}
+
+.Perfect-Place-text p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 530px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.Perfect-Place-text ul {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    width: 520px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.Perfect-Place-img {
+    width: 50%;
+}
+
+.Perfect-Place-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+
+/* Newsletter,container-6  */
+
+.newsletter {
+    width: 1440px;
+    height: 430px;
+    display: flex;
+    margin: 100px auto;
+}
+
+.newsletter-btn {
+    width: 43%;
+}
+.newsletter-btn-sub{
+    border: 1px solid red;
+    border-radius: 10px;
+    width:95% ;
+    height: 100%;
+}
+
+.newsletter-btn h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    width: 126px;
+    margin-top: 40px;
+    margin-left: 80px;
+
+}
+
+.newsletter-btn p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 16px;
+    margin-left: 80px;
+    width: 315px;
+}
+
+.newsletter-btn hr {
+    width: 395px;
+    margin-left: 80px;
+    margin-top: 25px;
+}
+
+.newsletter-btn input {
+    background-color: rgba(19, 19, 24, 0.05);
+    color: rgba(149, 149, 163, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    width: 395px;
+    height: 50px;
+    border-radius: 10px;
+    gap: 20px;
+    margin-left: 80px;
+    margin-top: 25px;
+    border: none;
+    
+}
+.newsletter-btn button{
+    width: 395px;
+    margin-left: 80px;
+    margin-top: 25px;
+}
+   
+
+.newsletter-img {
+    width: 57%;
+}
+
+.newsletter-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
