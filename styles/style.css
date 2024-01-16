@@ -566,18 +566,66 @@ button:hover {
     border-radius: 15px;
 }
 
+/* added extra section,features */
+.features {
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+    width: 1440px;
+    height: 400px;
+    margin: 100px auto;
+}
+
+.feature-text {
+    text-align: center;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.feature-text h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+
+}
+
+.feature-text p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.feature-icons {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 125px;
+
+}
+
+.feature-temp p {
+    font-size: 35px;
+    margin-top: 35px;
+
+}
+
+.feature-temp i {
+    font-size: 70px;
+    margin-top: 55px;
+
+}
 
 /* footer section */
 footer {
-    border: 1px solid rgba(19, 19, 24, 0.05) ;
+    border: 1px solid rgba(19, 19, 24, 0.05);
     background-color: rgba(19, 19, 24, 0.05);
     width: 100%;
     height: 500px;
-   
+
 }
-.footer-container {
- 
-}
+
+.footer-container {}
 
 .footer-head {
     font-size: ;
@@ -622,10 +670,12 @@ footer {
     display: flex;
 
 }
-.fa-brands{
+
+.fa-brands {
     margin-left: 25px;
 }
-.footer-container hr{
+
+.footer-container hr {
     background: rgba(19, 19, 24, 0.10);
     width: 870px;
     margin-top: 50px;
