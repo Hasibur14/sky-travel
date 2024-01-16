@@ -1,13 +1,359 @@
 /* For mobile size */
 
 @media screen and (max-width: 600px) {
-
-    .nav-container,
-    .nav-container-right,
-     {
+    .nav-container {
         flex-direction: column;
-        margin-left: 30px;
-        gap: 15px;
+        text-align: center;
+    }
+
+    .nav-container-left,
+    .nav-container-right {
+        width: 100%;
+        min-width: auto;
+    }
+
+    .nav-container-left img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .nav-container P {
+        font-size: 24px;
     }
 }
 
+/* first container,explore your travel,container-1 */
+@media (max-width:600px) {
+    .banner {
+        width: 25%;
+        height: auto;
+        margin-top: 20px;
+        border-radius: 0;
+    }
+}
+
+/* Our Popular Tours,container-2 */
+
+@media (max-width: 600px) {
+    .Popular-Tours {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .Popular-Tours-text,
+    .Popular-Tours-img {
+        width: 100%;
+        height: auto;
+        padding: 5px auto;
+    }
+
+    .Popular-Tours-text ul {
+        width: 100%;
+    }
+
+    .Popular-Tours-img img {
+        margin-left: 0;
+    }
+}
+
+
+/* Choose Your Destination, container-3 */
+
+@media (max-width:600px) {
+    .Your-Destination {
+        width: 100%;
+        height: auto;
+        margin: 50px auto;
+    }
+
+    .Your-Destination h2 {
+        font-size: 32px;
+    }
+
+    .Your-Destination p {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .Your-Destination-imgs {
+        height: auto;
+    }
+
+    .Your-Destination-img-part1,
+    .Your-Destination-img-part2,
+    .Your-Destination-img-part3 {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .Your-Destination-img1,
+    .Your-Destination-img2,
+    .destination-img6,
+    .destination-img7,
+    .destination-img9,
+    .destination-img11,
+    .destination-img10 {
+        width: 30%;
+        margin-bottom: 0px;
+    }
+
+    .Your-Destination-img1 h2,
+    .Your-Destination-img2 h2,
+    .destination-img6 h2,
+    .destination-img7 h2,
+    .destination-img9 h2,
+    .destination-img11 h2,
+    .destination-img10 h2 {
+        margin-TOP: -10%;
+        margin-left: 0;
+    }
+} 
+
+
+/* Why Choose Us,container-4 */
+
+@media only screen and (max-width:600px) {
+    .container-choose {
+        width: 100%;
+        height: auto;
+        margin: 50px auto;
+    }
+
+    .choose-text {
+        width: 100%;
+        height: auto;
+    }
+
+    .choose-text p {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        padding: 0 20px;
+    }
+
+    .box {
+        flex-direction: column;
+        height: 500px;
+    }
+
+    .box-1,
+    .box-2,
+    .box-3 {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .box-2 {
+        margin-left: 0;
+        margin-top: 155px;
+    }
+   
+    .box-3 {
+        margin-top: 210px;
+    }
+
+    .box-1,
+    .box-2,
+    .box-3 img {
+        margin: 0 auto;
+    }
+
+    .box-3 img{
+        margin-left:15px ;
+    }
+    .box-1,
+    .box-2,
+    .box-3 h2,
+    .box-1,
+    .box-2,
+    .box-3 p {
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+
+/* A Simple Perfect Place To Get Lost,container-5 */
+
+@media only screen and (max-width: 600px) {
+    .Perfect-Place {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .Perfect-Place-text,
+    .Perfect-Place-img {
+        width:30%;
+        height: 500px;
+    }
+
+    .Perfect-Place-text h2 {
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .Perfect-Place-text p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Perfect-Place-text ul {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .Perfect-Place-img {
+        margin-top: 20px;
+    }
+
+    .Perfect-Place-img img {
+        border-radius: 0;
+    }
+
+    .bd {
+        width: 100%;
+        margin: 0;
+        position: static;
+    }
+
+    .bd h2 {
+        margin-top: 8px;
+    }
+}
+
+/* Newsletter,container-6 */
+@media only screen and (max-width: 767px) {
+    .newsletter {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .newsletter-btn,
+    .newsletter-img {
+        width:30%;
+    }
+
+    .newsletter-btn-sub {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .newsletter-btn h2,
+    .newsletter-btn p,
+    .newsletter-btn hr,
+    .newsletter-btn input,
+    .newsletter-btn button {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .newsletter-img img {
+        border-radius: 0;
+    }
+
+    .discount {
+        width: 100%;
+        margin-left: 0;
+        position: static;
+        transform: none;
+        margin-top: 16px;
+    }
+
+    .discount h2,
+    .discount p {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+
+/* added extra section, features */
+
+@media only screen and (max-width:600px) {
+    .features {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        margin: 50px auto;
+    }
+
+    .feature-text {
+        margin-top: 30px;
+    }
+
+    .feature-text h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .feature-text p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .feature-icons {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .feature-temp p {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .feature-temp i {
+        font-size: 40px;
+        margin-top: 25px;
+    }
+}
+
+
+
+/* footer section */
+
+@media only screen and (max-width:600px) {
+    .features {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        margin: 50px auto;
+        
+    }
+
+    .feature-text {
+        margin-top: 30px;
+    }
+
+    .feature-text h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .feature-text p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .feature-icons {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .feature-temp p {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .feature-temp i {
+        font-size: 40px;
+        margin-top: 25px;
+    }
+}
