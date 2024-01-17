@@ -68,7 +68,7 @@ body {
 .banner-text {
     position: absolute;
     color: #FFF;
-    text-align: center;   
+    text-align: center;
 }
 
 .banner-text-h1 {
@@ -85,7 +85,6 @@ body {
     width: 676px;
     color: #FFF;
     text-align: center;
-    font-family: Mulish;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -104,7 +103,7 @@ body {
     margin-left: 290px;
 }
 
-.banner-btn-1 input{
+.banner-btn-1 input {
     width: 174px;
     height: 52px;
     border-radius: 10px;
@@ -112,7 +111,8 @@ body {
     margin-top: 17px;
     margin-left: 25px;
 }
-.banner-find{
+
+.banner-find {
     margin-top: 17px;
     margin-left: 25px;
 }
@@ -761,19 +761,22 @@ button:hover {
 
 }
 
-/* footer section */
-/* footer{
+/* footer section  */
+
+ footer{
     background-color:rgba(19, 19, 24, 0.05);
     width: 100%;
-    height: 500px; */
+    height: 500px;
+ }
 
 .footer {
-    background-color: rgba(97, 97, 199, 0.05);
-    width:1440px;
+    background-color: rgba(241, 241, 246, 0.05);
+    width: 1440px;
     height: 500px;
     margin: 200px auto;
 
 }
+
 .footer-head {
 
     display: flex;
@@ -793,7 +796,7 @@ button:hover {
     font-size: 32px;
     font-weight: 800;
     margin-left: 15px;
-  
+
 }
 
 .footer-p {
@@ -823,13 +826,14 @@ button:hover {
     margin-left: 35px;
 }
 
-.footer-hr{
+.footer-hr {
     background: rgba(19, 19, 24, 0.10);
-    width:780px;
+    width: 780px;
     margin-top: 50px;
     margin-left: 310px;
 }
-.footer-copy{
+
+.footer-copy {
     margin: 45px 600px;
-    
+
 }
