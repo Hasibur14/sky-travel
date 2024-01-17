@@ -773,7 +773,8 @@ button:hover {
     background-color: rgba(241, 241, 246, 0.05);
     width: 1440px;
     height: 500px;
-    margin: 200px auto;
+    margin: 00px auto;
+    padding-top:15px;
 
 }
 
